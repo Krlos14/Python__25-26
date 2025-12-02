@@ -1,13 +1,8 @@
-nombre = input("¿Como te llamas?")
-
-
-def saludo(n, a="Rodriguez"):
-    print (n , a)
-
-saludo(nombre, "Perro")
-
-
 def menu_principal():
+    """
+    Esta funcion llama al menu jugar,configuración y salir
+    """
+
     print(f" 1) Jugar")
     print(f" 2) Configuracion")
     print(f" 3) Salir")
